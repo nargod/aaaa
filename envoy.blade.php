@@ -22,7 +22,7 @@
   $username = 'deployer';                       // username at the server
   $remote = 'git@github.com:nargod/aaaa.git';   // github repository to clone
   $base_dir = "/home/{$username}/www";          // document that holds projects
-  $project_root = "{$base_dir}/GpProject"; // project root
+  $project_root = "{$base_dir}/aaaa"; // project root
   $shared_dir = "{$base_dir}/shared";           // directory that will house shared dir/files
   $release_dir = "{$base_dir}/releases";        // release directory
   $distname = 'release_' . date('YmdHis');      // release name
